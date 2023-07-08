@@ -1,4 +1,4 @@
-# Use the official .NET 6 SDK as the base image
+# Use the official .NET SDK as the base image
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /app
 
