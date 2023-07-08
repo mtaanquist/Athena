@@ -34,4 +34,4 @@ app.MapPost("/archivetask", async (AthenaDb db, ArchiveTask archiveTask) =>
     return Results.Created($"/archivetask/{archiveTask.Id}", archiveTask);
 });
 
-app.Run();
+app.Run("http://*:5000");
